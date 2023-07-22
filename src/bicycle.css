@@ -1,0 +1,99 @@
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+header {
+  height: 60px;
+}
+
+header > img {
+  width: 120px;
+  margin-top: 10px;
+  margin-left: 230px;
+}
+
+nav {
+  float: right;
+  margin-right: 232px;
+}
+
+nav > ul {
+  display: flex;
+}
+
+nav ul li {
+  font-size: 14px;
+  margin-right: 33px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+#mainvisual img {
+  height: 600px;
+  width: 100vw;
+  object-fit: cover;
+}
+
+#about {
+  width: 40%;
+  margin: 25px auto;
+}
+
+section > h2 {
+  margin-left: 45%;
+  display: inline-block;
+  border-bottom: 1px solid black;
+}
+
+#about div {
+  height: 200px;
+}
+
+#about div h3,
+#about div p {
+  width: 450px;
+  float: right;
+}
+
+#about div img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  float: left;
+  margin: 50px auto;
+}
+
+#bicycle {
+  width: 60%;
+  margin: 25px auto;
+}
+
+#bicycle ul {
+  display: flex;
+  margin: 18px;
+}
+
+#bicycle ul li {
+  margin-right: 15px;
+}
+
+#bicycle ul li img {
+  width: 263px;
+  object-fit: cover;
+}
+
+#bicycle ul li h3,
+#bicycle ul li p {
+  text-align: center;
+}
+
+footer > p {
+  margin-top: 150px;
+  text-align: center;
+  font-size: 10px;
+}
